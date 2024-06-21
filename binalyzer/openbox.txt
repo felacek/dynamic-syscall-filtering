@@ -1,0 +1,818 @@
+[145ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libXrandr.so.2.json
+Clearing function cache
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[118ms] Getting CFG
+[50ms] Syscall Init
+[10ms] Syscall locations
+[0ms] Syslist
+[0ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libmount.so.1.json
+ERROR   | 2024-06-21 18:25:15,985 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:25:15,985 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:25:15,985 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:01 Time:  0:00:01
+[1994ms] Getting CFG
+[622ms] Syscall Init
+[76ms] Syscall locations
+[1ms] Syslist
+Building function cache...
+[25ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libgdk_pixbuf-2.0.so.0.json
+Clearing function cache
+ERROR   | 2024-06-21 18:25:18,732 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:25:18,732 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:25:18,732 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+WARNING | 2024-06-21 18:25:18,792 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: g_ascii_table
+WARNING | 2024-06-21 18:25:18,795 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+100% |########################| Elapsed Time: 0:00:01 Time:  0:00:01
+[1765ms] Getting CFG
+[553ms] Syscall Init
+[59ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[22ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libobt.so.2.json
+Clearing function cache
+WARNING | 2024-06-21 18:25:21,185 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: g_ascii_table
+WARNING | 2024-06-21 18:25:21,186 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: xmlFree
+WARNING | 2024-06-21 18:25:21,187 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[282ms] Getting CFG
+[56ms] Syscall Init
+[10ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[2ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libXrender.so.1.json
+Clearing function cache
+WARNING | 2024-06-21 18:25:21,520 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: _XUnlockMutex_fn
+WARNING | 2024-06-21 18:25:21,520 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: _XLockMutex_fn
+WARNING | 2024-06-21 18:25:21,520 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: _Xglobal_lock
+WARNING | 2024-06-21 18:25:21,521 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[216ms] Getting CFG
+[52ms] Syscall Init
+[11ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[0ms] Callee list
+[0ms] Extract syscalls per function
+[1ms] Find syscall numbers
+Load filter cached_results/_lib_libexpat.so.1.json
+Clearing function cache
+ERROR   | 2024-06-21 18:25:21,794 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:25:21,794 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:25:21,794 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[741ms] Getting CFG
+[295ms] Syscall Init
+[40ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[9ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libxml2.so.2.json
+Clearing function cache
+ERROR   | 2024-06-21 18:25:22,906 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:25:22,906 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:25:22,906 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+WARNING | 2024-06-21 18:25:23,144 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: __libc_single_threaded
+WARNING | 2024-06-21 18:25:23,155 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+100% |########################| Elapsed Time: 0:00:13 Time:  0:00:13
+[13758ms] Getting CFG
+[3029ms] Syscall Init
+[315ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[420ms] Callee list
+[1ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libcairo.so.2.json
+Clearing function cache
+ERROR   | 2024-06-21 18:25:40,548 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:25:40,549 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:25:40,549 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+WARNING | 2024-06-21 18:25:40,632 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: xcb_shm_id
+WARNING | 2024-06-21 18:25:40,633 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: xcb_render_id
+WARNING | 2024-06-21 18:25:40,635 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: xcb_big_requests_id
+WARNING | 2024-06-21 18:25:40,637 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+100% |########################| Elapsed Time: 0:00:13 Time:  0:00:13
+[13481ms] Getting CFG
+[3055ms] Syscall Init
+[283ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[476ms] Callee list
+[12ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libXau.so.6.json
+Clearing function cache
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[47ms] Getting CFG
+[7ms] Syscall Init
+[2ms] Syscall locations
+[0ms] Syslist
+[0ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_librsvg-2.so.2.json
+ERROR   | 2024-06-21 18:25:58,047 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:25:58,048 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:25:58,048 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:27 Time:  0:00:27
+[28453ms] Getting CFG
+[11348ms] Syscall Init
+[1057ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[1409ms] Callee list
+[2ms] Extract syscalls per function
+[1ms] Find syscall numbers
+Load filter cached_results/_lib_libuuid.so.1.json
+Clearing function cache
+ERROR   | 2024-06-21 18:26:40,728 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:26:40,729 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:26:40,729 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[165ms] Getting CFG
+[37ms] Syscall Init
+[7ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[1ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libImlib2.so.1.json
+Clearing function cache
+ERROR   | 2024-06-21 18:26:40,946 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:26:40,946 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:26:40,947 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:03 Time:  0:00:03
+[3565ms] Getting CFG
+[990ms] Syscall Init
+[101ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[29ms] Callee list
+[1ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libgcc_s.so.1.json
+Clearing function cache
+ERROR   | 2024-06-21 18:26:45,672 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:26:45,672 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:26:45,672 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:03 Time:  0:00:03
+[3084ms] Getting CFG
+[507ms] Syscall Init
+[46ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[32ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libfribidi.so.0.json
+Clearing function cache
+ERROR   | 2024-06-21 18:26:49,354 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:26:49,354 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:26:49,354 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[218ms] Getting CFG
+[33ms] Syscall Init
+[7ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[2ms] Callee list
+[0ms] Extract syscalls per function
+[1ms] Find syscall numbers
+Load filter cached_results/_lib_libxcb-util.so.1.json
+Clearing function cache
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[124ms] Getting CFG
+[9ms] Syscall Init
+[1ms] Syscall locations
+[0ms] Syslist
+[0ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libgio-2.0.so.0.json
+ERROR   | 2024-06-21 18:26:49,769 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:26:49,769 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:26:49,769 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+WARNING | 2024-06-21 18:26:50,046 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: g_utf8_skip
+WARNING | 2024-06-21 18:26:50,048 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: in6addr_any
+WARNING | 2024-06-21 18:26:50,049 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: g_ascii_table
+WARNING | 2024-06-21 18:26:50,054 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: in6addr_loopback
+WARNING | 2024-06-21 18:26:50,060 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+100% |########################| Elapsed Time: 0:00:13 Time:  0:00:13
+[14056ms] Getting CFG
+[4424ms] Syscall Init
+[423ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[271ms] Callee list
+[4ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libxcb-render.so.0.json
+Clearing function cache
+ERROR   | 2024-06-21 18:27:09,103 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:27:09,103 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:27:09,103 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[397ms] Getting CFG
+[51ms] Syscall Init
+[7ms] Syscall locations
+[0ms] Syslist
+[0ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libXext.so.6.json
+WARNING | 2024-06-21 18:27:09,583 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: _XUnlockMutex_fn
+WARNING | 2024-06-21 18:27:09,584 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: _XLockMutex_fn
+WARNING | 2024-06-21 18:27:09,584 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: _Xglobal_lock
+WARNING | 2024-06-21 18:27:09,585 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[398ms] Getting CFG
+[120ms] Syscall Init
+[25ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[6ms] Callee list
+[1ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libpcre2-8.so.0.json
+Clearing function cache
+ERROR   | 2024-06-21 18:27:10,135 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:27:10,135 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:27:10,136 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:06 Time:  0:00:06
+[6827ms] Getting CFG
+[1490ms] Syscall Init
+[151ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[88ms] Callee list
+[1ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libX11.so.6.json
+Clearing function cache
+ERROR   | 2024-06-21 18:27:18,743 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:27:18,743 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:27:18,743 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:06 Time:  0:00:06
+[6500ms] Getting CFG
+[1917ms] Syscall Init
+[214ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[118ms] Callee list
+[1ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libSM.so.6.json
+Clearing function cache
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[123ms] Getting CFG
+[277ms] Syscall Init
+[9ms] Syscall locations
+[0ms] Syslist
+[1ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libgraphite2.so.3.json
+100% |########################| Elapsed Time: 0:00:01 Time:  0:00:01
+[1184ms] Getting CFG
+[223ms] Syscall Init
+[32ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[12ms] Callee list
+[0ms] Extract syscalls per function
+[1ms] Find syscall numbers
+Load filter cached_results/_lib_libX11-xcb.so.1.json
+Clearing function cache
+ERROR   | 2024-06-21 18:27:29,443 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:27:29,443 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:27:29,443 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[30ms] Getting CFG
+[4ms] Syscall Init
+[1ms] Syscall locations
+[0ms] Syslist
+[0ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libjbig.so.2.1.json
+ERROR   | 2024-06-21 18:27:29,482 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:27:29,483 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:27:29,483 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[257ms] Getting CFG
+[48ms] Syscall Init
+[8ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[2ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_bin_openbox.json
+Clearing function cache
+WARNING | 2024-06-21 18:27:29,937 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: obt_display_error_occured
+WARNING | 2024-06-21 18:27:29,938 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: obt_display
+WARNING | 2024-06-21 18:27:29,938 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: obt_display_extension_xkb
+WARNING | 2024-06-21 18:27:29,938 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: obt_display_extension_shape_basep
+WARNING | 2024-06-21 18:27:29,940 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: obt_display_extension_shape
+WARNING | 2024-06-21 18:27:29,941 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: obt_display_extension_xinerama
+WARNING | 2024-06-21 18:27:29,941 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: obt_display_extension_sync_basep
+WARNING | 2024-06-21 18:27:29,941 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: obt_display_extension_sync
+WARNING | 2024-06-21 18:27:29,942 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: obt_display_extension_xkb_basep
+WARNING | 2024-06-21 18:27:29,942 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: g_utf8_skip
+WARNING | 2024-06-21 18:27:29,943 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: g_ascii_table
+WARNING | 2024-06-21 18:27:29,946 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+100% |########################| Elapsed Time: 0:00:02 Time:  0:00:02
+[3123ms] Getting CFG
+[1035ms] Syscall Init
+[87ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[67ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libpangoxft-1.0.so.0.json
+Clearing function cache
+ERROR   | 2024-06-21 18:27:34,156 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:27:34,156 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:27:34,156 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[272ms] Getting CFG
+[28ms] Syscall Init
+[5ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[3ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libcairo-gobject.so.2.json
+Clearing function cache
+ERROR   | 2024-06-21 18:27:34,468 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:27:34,468 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:27:34,469 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[117ms] Getting CFG
+[12ms] Syscall Init
+[1ms] Syscall locations
+[0ms] Syslist
+[0ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libm.so.6.json
+ERROR   | 2024-06-21 18:27:34,616 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:27:34,616 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:27:34,616 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:11 Time:  0:00:11
+[11967ms] Getting CFG
+[1671ms] Syscall Init
+[172ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[542ms] Callee list
+[1ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libz.so.1.json
+Clearing function cache
+ERROR   | 2024-06-21 18:27:49,023 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:27:49,023 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:27:49,023 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:01 Time:  0:00:01
+[1119ms] Getting CFG
+[158ms] Syscall Init
+[20ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[9ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_liblzma.so.5.json
+Clearing function cache
+ERROR   | 2024-06-21 18:27:50,346 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:27:50,346 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:27:50,346 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:01 Time:  0:00:01
+[1456ms] Getting CFG
+[433ms] Syscall Init
+[58ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[19ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libpangoft2-1.0.so.0.json
+Clearing function cache
+ERROR   | 2024-06-21 18:27:52,328 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:27:52,328 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:27:52,328 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+WARNING | 2024-06-21 18:27:52,389 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: g_utf8_skip
+WARNING | 2024-06-21 18:27:52,397 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[662ms] Getting CFG
+[195ms] Syscall Init
+[21ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[8ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libicuuc.so.75.json
+Clearing function cache
+ERROR   | 2024-06-21 18:27:53,240 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:27:53,240 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:27:53,241 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+WARNING | 2024-06-21 18:27:53,555 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: _ZTVN10__cxxabiv120__si_class_type_infoE
+WARNING | 2024-06-21 18:27:53,557 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: _ZTVN10__cxxabiv117__class_type_infoE
+WARNING | 2024-06-21 18:27:53,557 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: _ZTVN10__cxxabiv121__vmi_class_type_infoE
+WARNING | 2024-06-21 18:27:53,557 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: __timezone
+WARNING | 2024-06-21 18:27:53,557 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: _ZSt15__once_callable
+WARNING | 2024-06-21 18:27:53,558 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: icudt75_dat
+WARNING | 2024-06-21 18:27:53,558 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: _ZSt11__once_call
+WARNING | 2024-06-21 18:27:53,559 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: tzname
+WARNING | 2024-06-21 18:27:53,561 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+100% |########################| Elapsed Time: 0:00:27 Time:  0:00:27
+[27941ms] Getting CFG
+[4774ms] Syscall Init
+[386ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[2704ms] Callee list
+[8ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libgmodule-2.0.so.0.json
+Clearing function cache
+ERROR   | 2024-06-21 18:28:29,212 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:28:29,212 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:28:29,212 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[69ms] Getting CFG
+[15ms] Syscall Init
+[1ms] Syscall locations
+[0ms] Syslist
+[0ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libxcb-shm.so.0.json
+ERROR   | 2024-06-21 18:28:29,300 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:28:29,300 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:28:29,300 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[76ms] Getting CFG
+[8ms] Syscall Init
+[2ms] Syscall locations
+[0ms] Syslist
+[0ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libstartup-notification-1.so.0.json
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[272ms] Getting CFG
+[31ms] Syscall Init
+[5ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[3ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libdatrie.so.1.json
+Clearing function cache
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[283ms] Getting CFG
+[31ms] Syscall Init
+[5ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[2ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libICE.so.6.json
+Clearing function cache
+WARNING | 2024-06-21 18:28:30,066 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: in6addr_any
+WARNING | 2024-06-21 18:28:30,068 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[567ms] Getting CFG
+[109ms] Syscall Init
+[26ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[4ms] Callee list
+[1ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libffi.so.8.json
+Clearing function cache
+ERROR   | 2024-06-21 18:28:30,756 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:28:30,756 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:28:30,756 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[488ms] Getting CFG
+[55ms] Syscall Init
+[10ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[4ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libbz2.so.1.0.json
+Clearing function cache
+ERROR   | 2024-06-21 18:28:31,316 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:28:31,316 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:28:31,316 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[492ms] Getting CFG
+[119ms] Syscall Init
+[19ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[4ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libXdmcp.so.6.json
+Clearing function cache
+ERROR   | 2024-06-21 18:28:31,957 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:28:31,958 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:28:31,958 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[100ms] Getting CFG
+[15ms] Syscall Init
+[3ms] Syscall locations
+[0ms] Syslist
+[0ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+
+[+] Modifying /bin/openbox to add syscalls in note section
+Found 287 syscalls
+[0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 58, 59, 60, 61, 62, 63, 67, 72, 73, 74, 75, 76, 77, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 134, 135, 136, 137, 138, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 157, 158, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 201, 202, 203, 204, 213, 216, 217, 218, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 240, 241, 242, 243, 244, 245, 247, 253, 254, 255, 257, 258, 259, 260, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 275, 276, 277, 278, 280, 281, 283, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 316, 318, 319, 322, 325, 326, 327, 328, 329, 330, 331, 332, 334, 424, 428, 429, 430, 431, 432, 433, 434, 435, 436, 438, 439, 440, 441, 442, 448, 452, 453]
+read
+write
+close
+stat
+fstat
+lstat
+poll
+lseek
+mmap
+mprotect
+munmap
+brk
+rt_sigaction
+rt_sigprocmask
+rt_sigreturn
+ioctl
+pread64
+pwrite64
+readv
+writev
+access
+sched_yield
+mremap
+msync
+mincore
+madvise
+shmget
+shmat
+shmctl
+dup
+dup2
+pause
+getitimer
+alarm
+setitimer
+getpid
+sendfile
+socket
+connect
+accept
+sendto
+recvfrom
+sendmsg
+recvmsg
+shutdown
+bind
+listen
+getsockname
+getpeername
+socketpair
+setsockopt
+getsockopt
+clone
+vfork
+execve
+exit
+wait4
+kill
+uname
+shmdt
+fcntl
+flock
+fsync
+fdatasync
+truncate
+ftruncate
+getcwd
+chdir
+fchdir
+rename
+mkdir
+rmdir
+creat
+link
+unlink
+symlink
+readlink
+chmod
+fchmod
+chown
+fchown
+lchown
+umask
+gettimeofday
+getrusage
+sysinfo
+times
+ptrace
+getuid
+syslog
+getgid
+setuid
+setgid
+geteuid
+getegid
+setpgid
+getppid
+getpgrp
+setsid
+setreuid
+setregid
+getgroups
+setgroups
+setresuid
+getresuid
+setresgid
+getresgid
+getpgid
+setfsuid
+setfsgid
+getsid
+capget
+capset
+rt_sigpending
+rt_sigtimedwait
+rt_sigqueueinfo
+rt_sigsuspend
+sigaltstack
+uselib
+personality
+ustat
+statfs
+fstatfs
+getpriority
+setpriority
+sched_setparam
+sched_getparam
+sched_setscheduler
+sched_getscheduler
+sched_get_priority_max
+sched_get_priority_min
+sched_rr_get_interval
+mlock
+munlock
+mlockall
+munlockall
+vhangup
+modify_ldt
+pivot_root
+prctl
+arch_prctl
+chroot
+sync
+acct
+settimeofday
+mount
+umount2
+swapon
+swapoff
+reboot
+sethostname
+setdomainname
+iopl
+ioperm
+create_module
+init_module
+delete_module
+get_kernel_syms
+query_module
+quotactl
+nfsservctl
+gettid
+readahead
+setxattr
+lsetxattr
+fsetxattr
+getxattr
+lgetxattr
+fgetxattr
+listxattr
+llistxattr
+flistxattr
+removexattr
+lremovexattr
+fremovexattr
+time
+futex
+sched_setaffinity
+sched_getaffinity
+epoll_create
+remap_file_pages
+getdents64
+set_tid_address
+fadvise64
+timer_create
+timer_settime
+timer_gettime
+timer_getoverrun
+timer_delete
+clock_settime
+clock_gettime
+clock_getres
+clock_nanosleep
+exit_group
+epoll_wait
+epoll_ctl
+tgkill
+mq_open
+mq_unlink
+mq_timedsend
+mq_timedreceive
+mq_notify
+mq_getsetattr
+waitid
+inotify_init
+inotify_add_watch
+inotify_rm_watch
+openat
+mkdirat
+mknodat
+fchownat
+newfstatat
+unlinkat
+renameat
+linkat
+symlinkat
+readlinkat
+fchmodat
+faccessat
+pselect6
+ppoll
+unshare
+set_robust_list
+splice
+tee
+sync_file_range
+vmsplice
+utimensat
+epoll_pwait
+timerfd_create
+fallocate
+timerfd_settime
+timerfd_gettime
+accept4
+signalfd4
+eventfd2
+epoll_create1
+dup3
+pipe2
+inotify_init1
+preadv
+pwritev
+rt_tgsigqueueinfo
+recvmmsg
+fanotify_init
+fanotify_mark
+prlimit64
+name_to_handle_at
+open_by_handle_at
+clock_adjtime
+syncfs
+sendmmsg
+setns
+getcpu
+process_vm_readv
+process_vm_writev
+[!] Blocking 58 syscalls

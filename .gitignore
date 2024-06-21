@@ -1,0 +1,12 @@
+static/
+q/coreutils
+q/a.out
+q/c
+plan/
+ls/
+.venv/
+openbox/
+docker.trace
+docker2.trace
+profile.json
+seccomp.json

@@ -1,0 +1,5 @@
+callander: permitted syscalls: write(STDOUT_FILENO, /usr/bin/asm:0x401000, 13) @ /usr/bin/asm:0x401028
+exit(0) @ /usr/bin/asm:0x401031
+gettimeofday(any, any) @ [vdso]+0x8e4(gettimeofday+308)
+clock_gettime(any u32, any) @ [vdso]+0xb4b(__vdso_clock_gettime+235)
+clock_getres(any u32, any) @ [vdso]+0xdff(__vdso_clock_getres+95)

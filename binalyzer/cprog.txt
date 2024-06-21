@@ -1,0 +1,197 @@
+{'/lib/libc.so.6', '../../../q/cprog', '/lib/ld-linux-x86-64.so.2'}
+Required functions
+Load whitelist
+Extracting syscalls
+Load filter cached_results/_lib_libc.so.6.json
+ERROR   | 2024-06-21 18:20:27,865 | archinfo.arch | Please look up and add dynamic tag type 0x70000001 for AMD64
+ERROR   | 2024-06-21 18:20:27,865 | archinfo.arch | Please look up and add dynamic tag type 0x70000003 for AMD64
+ERROR   | 2024-06-21 18:20:27,865 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:20:27,865 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:20:27,866 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+WARNING | 2024-06-21 18:20:28,079 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: _dl_argv
+WARNING | 2024-06-21 18:20:28,079 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: __libc_enable_secure
+WARNING | 2024-06-21 18:20:28,080 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+100% |########################| Elapsed Time: 0:00:26 Time:  0:00:26
+[27650ms] Getting CFG
+[5442ms] Syscall Init
+[444ms] Syscall locations
+Building function cache...
+[240ms] Syslist
+[1175ms] Callee list
+[22ms] Extract syscalls per function
+Found getpwuid in whitelist, adding 2 syscall(s)
+[12960ms] Find syscall numbers
+Load filter cached_results/._.._.._q_cprog.json
+Clearing function cache
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[37ms] Getting CFG
+[3ms] Syscall Init
+[0ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[0ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_ld-linux-x86-64.so.2.json
+Clearing function cache
+ERROR   | 2024-06-21 18:21:16,193 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:21:16,193 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:21:16,193 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:02 Time:  0:00:02
+[3394ms] Getting CFG
+[237ms] Syscall Init
+[49ms] Syscall locations
+Building function cache...
+[27ms] Syslist
+[23ms] Callee list
+[1ms] Extract syscalls per function
+[5ms] Find syscall numbers
+
+[+] Modifying ../../../q/cprog to add syscalls in note section
+Found 154 syscalls
+[0, 1, 3, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 24, 28, 32, 33, 34, 36, 37, 38, 39, 40, 56, 58, 59, 60, 61, 62, 63, 72, 73, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 98, 100, 102, 104, 105, 106, 107, 108, 109, 110, 111, 112, 115, 116, 117, 118, 119, 120, 121, 124, 127, 128, 129, 130, 131, 137, 138, 140, 141, 142, 143, 144, 145, 146, 147, 148, 157, 158, 161, 163, 164, 186, 201, 202, 203, 204, 217, 218, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 234, 240, 241, 242, 243, 244, 245, 247, 257, 258, 259, 260, 262, 263, 264, 265, 266, 267, 268, 269, 271, 273, 277, 280, 285, 292, 293, 297, 302, 309, 316, 318, 322, 326, 332, 334, 436, 439, 452, 453]
+read
+write
+close
+fstat
+poll
+lseek
+mmap
+mprotect
+munmap
+brk
+rt_sigaction
+rt_sigprocmask
+rt_sigreturn
+ioctl
+pread64
+pwrite64
+writev
+access
+sched_yield
+madvise
+dup
+dup2
+pause
+getitimer
+alarm
+setitimer
+getpid
+sendfile
+clone
+vfork
+execve
+exit
+wait4
+kill
+uname
+fcntl
+flock
+getcwd
+chdir
+fchdir
+rename
+mkdir
+rmdir
+creat
+link
+unlink
+symlink
+readlink
+chmod
+fchmod
+chown
+fchown
+lchown
+umask
+gettimeofday
+getrusage
+times
+getuid
+getgid
+setuid
+setgid
+geteuid
+getegid
+setpgid
+getppid
+getpgrp
+setsid
+getgroups
+setgroups
+setresuid
+getresuid
+setresgid
+getresgid
+getpgid
+getsid
+rt_sigpending
+rt_sigtimedwait
+rt_sigqueueinfo
+rt_sigsuspend
+sigaltstack
+statfs
+fstatfs
+getpriority
+setpriority
+sched_setparam
+sched_getparam
+sched_setscheduler
+sched_getscheduler
+sched_get_priority_max
+sched_get_priority_min
+sched_rr_get_interval
+prctl
+arch_prctl
+chroot
+acct
+settimeofday
+gettid
+time
+futex
+sched_setaffinity
+sched_getaffinity
+getdents64
+set_tid_address
+fadvise64
+timer_create
+timer_settime
+timer_gettime
+timer_getoverrun
+timer_delete
+clock_settime
+clock_gettime
+clock_getres
+clock_nanosleep
+exit_group
+tgkill
+mq_open
+mq_unlink
+mq_timedsend
+mq_timedreceive
+mq_notify
+mq_getsetattr
+waitid
+openat
+mkdirat
+mknodat
+fchownat
+newfstatat
+unlinkat
+renameat
+linkat
+symlinkat
+readlinkat
+fchmodat
+faccessat
+ppoll
+set_robust_list
+sync_file_range
+utimensat
+fallocate
+dup3
+pipe2
+rt_tgsigqueueinfo
+prlimit64
+getcpu
+[!] Blocking 170 syscalls

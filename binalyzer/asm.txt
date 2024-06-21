@@ -1,0 +1,11 @@
+{'../../../q/asm'}
+Required functions
+Load whitelist
+Extracting syscalls
+
+[+] Modifying ../../../q/asm to add syscalls in note section
+Found 2 syscalls
+[1, 60]
+write
+exit
+[!] Blocking 312 syscalls

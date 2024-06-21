@@ -1,0 +1,276 @@
+{'/lib/ld-linux-x86-64.so.2', '/lib/libcap.so.2', '/bin/ls', '/lib/libc.so.6'}
+Required functions
+Load whitelist
+Extracting syscalls
+Load filter cached_results/_lib_ld-linux-x86-64.so.2.json
+Load filter cached_results/_lib_libcap.so.2.json
+ERROR   | 2024-06-21 18:21:51,961 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:21:51,961 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:21:51,961 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[250ms] Getting CFG
+[50ms] Syscall Init
+[8ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[2ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_bin_ls.json
+Clearing function cache
+ERROR   | 2024-06-21 18:21:52,276 | archinfo.arch | Please look up and add dynamic tag type 0x24 for AMD64
+ERROR   | 2024-06-21 18:21:52,276 | archinfo.arch | Please look up and add dynamic tag type 0x23 for AMD64
+ERROR   | 2024-06-21 18:21:52,276 | archinfo.arch | Please look up and add dynamic tag type 0x25 for AMD64
+WARNING | 2024-06-21 18:21:52,295 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: program_invocation_name
+WARNING | 2024-06-21 18:21:52,296 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: program_invocation_short_name
+WARNING | 2024-06-21 18:21:52,297 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+100% |########################| Elapsed Time: 0:00:00 Time:  0:00:00
+[518ms] Getting CFG
+[224ms] Syscall Init
+[24ms] Syscall locations
+[0ms] Syslist
+Building function cache...
+[5ms] Callee list
+[0ms] Extract syscalls per function
+[0ms] Find syscall numbers
+Load filter cached_results/_lib_libc.so.6.json
+
+[+] Modifying /bin/ls to add syscalls in note section
+Found 266 syscalls
+[0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 24, 25, 26, 27, 28, 32, 33, 34, 36, 37, 38, 39, 40, 41, 56, 58, 59, 60, 61, 62, 63, 72, 73, 74, 75, 76, 77, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 134, 135, 136, 137, 138, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 157, 158, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 201, 202, 203, 204, 213, 216, 217, 218, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 240, 241, 242, 243, 244, 245, 247, 253, 254, 255, 257, 258, 259, 260, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 275, 276, 277, 278, 280, 281, 283, 285, 286, 287, 289, 290, 291, 292, 293, 294, 295, 296, 297, 300, 301, 302, 303, 304, 305, 306, 308, 309, 310, 311, 316, 318, 319, 322, 325, 326, 327, 328, 329, 330, 331, 332, 334, 424, 428, 429, 430, 431, 432, 433, 434, 435, 436, 438, 439, 440, 441, 442, 448, 452, 453]
+read
+write
+close
+stat
+fstat
+lstat
+poll
+lseek
+mmap
+mprotect
+munmap
+brk
+rt_sigaction
+rt_sigprocmask
+rt_sigreturn
+ioctl
+pread64
+pwrite64
+readv
+writev
+access
+sched_yield
+mremap
+msync
+mincore
+madvise
+dup
+dup2
+pause
+getitimer
+alarm
+setitimer
+getpid
+sendfile
+socket
+clone
+vfork
+execve
+exit
+wait4
+kill
+uname
+fcntl
+flock
+fsync
+fdatasync
+truncate
+ftruncate
+getcwd
+chdir
+fchdir
+rename
+mkdir
+rmdir
+creat
+link
+unlink
+symlink
+readlink
+chmod
+fchmod
+chown
+fchown
+lchown
+umask
+gettimeofday
+getrusage
+sysinfo
+times
+ptrace
+getuid
+syslog
+getgid
+setuid
+setgid
+geteuid
+getegid
+setpgid
+getppid
+getpgrp
+setsid
+setreuid
+setregid
+getgroups
+setgroups
+setresuid
+getresuid
+setresgid
+getresgid
+getpgid
+setfsuid
+setfsgid
+getsid
+capget
+capset
+rt_sigpending
+rt_sigtimedwait
+rt_sigqueueinfo
+rt_sigsuspend
+sigaltstack
+uselib
+personality
+ustat
+statfs
+fstatfs
+getpriority
+setpriority
+sched_setparam
+sched_getparam
+sched_setscheduler
+sched_getscheduler
+sched_get_priority_max
+sched_get_priority_min
+sched_rr_get_interval
+mlock
+munlock
+mlockall
+munlockall
+vhangup
+modify_ldt
+pivot_root
+prctl
+arch_prctl
+chroot
+sync
+acct
+settimeofday
+mount
+umount2
+swapon
+swapoff
+reboot
+sethostname
+setdomainname
+iopl
+ioperm
+create_module
+init_module
+delete_module
+get_kernel_syms
+query_module
+quotactl
+nfsservctl
+gettid
+readahead
+setxattr
+lsetxattr
+fsetxattr
+getxattr
+lgetxattr
+fgetxattr
+listxattr
+llistxattr
+flistxattr
+removexattr
+lremovexattr
+fremovexattr
+time
+futex
+sched_setaffinity
+sched_getaffinity
+epoll_create
+remap_file_pages
+getdents64
+set_tid_address
+fadvise64
+timer_create
+timer_settime
+timer_gettime
+timer_getoverrun
+timer_delete
+clock_settime
+clock_gettime
+clock_getres
+clock_nanosleep
+exit_group
+epoll_wait
+epoll_ctl
+tgkill
+mq_open
+mq_unlink
+mq_timedsend
+mq_timedreceive
+mq_notify
+mq_getsetattr
+waitid
+inotify_init
+inotify_add_watch
+inotify_rm_watch
+openat
+mkdirat
+mknodat
+fchownat
+newfstatat
+unlinkat
+renameat
+linkat
+symlinkat
+readlinkat
+fchmodat
+faccessat
+pselect6
+ppoll
+unshare
+set_robust_list
+splice
+tee
+sync_file_range
+vmsplice
+utimensat
+epoll_pwait
+timerfd_create
+fallocate
+timerfd_settime
+timerfd_gettime
+signalfd4
+eventfd2
+epoll_create1
+dup3
+pipe2
+inotify_init1
+preadv
+pwritev
+rt_tgsigqueueinfo
+fanotify_init
+fanotify_mark
+prlimit64
+name_to_handle_at
+open_by_handle_at
+clock_adjtime
+syncfs
+setns
+getcpu
+process_vm_readv
+process_vm_writev
+[!] Blocking 79 syscalls
