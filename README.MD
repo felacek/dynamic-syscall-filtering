@@ -48,6 +48,14 @@ Inside it, you can test any program you want:
 callander --show-permitted asm 2> /out/asm.txt
 ```
 
+To get the list of syscalls from a callander output file (no arguments),
+use the provided python script (edit the first line of the file
+to specify filename):
+
+```sh
+python callander_extraction.py
+```
+
 ## Openbox
 
 To run Openbox, create a Xephyr window:
