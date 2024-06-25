@@ -1,0 +1,430 @@
+17:56:56 execve("/usr/bin/ls", ["ls", "full", "-laihr"], 0x7ffc80973c38 /* 119 vars */) = 0 <0.000214>
+17:56:56 brk(NULL)                      = 0x60a5b81e2000 <0.000006>
+17:56:56 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory) <0.000007>
+17:56:56 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+17:56:56 fstat(3, {st_mode=S_IFREG|0644, st_size=340971, ...}) = 0 <0.000006>
+17:56:56 mmap(NULL, 340971, PROT_READ, MAP_PRIVATE, 3, 0) = 0x720048da7000 <0.000008>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/usr/lib/libcap.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+17:56:56 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200z\0\0\0\0\0\0"..., 832) = 832 <0.000006>
+17:56:56 fstat(3, {st_mode=S_IFREG|0755, st_size=43064, ...}) = 0 <0.000005>
+17:56:56 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x720048da5000 <0.000008>
+17:56:56 mmap(NULL, 45128, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x720048d99000 <0.000007>
+17:56:56 mmap(0x720048d9c000, 20480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x720048d9c000 <0.000011>
+17:56:56 mmap(0x720048da1000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x720048da1000 <0.000014>
+17:56:56 mmap(0x720048da3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x720048da3000 <0.000009>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000015>
+17:56:56 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`^\2\0\0\0\0\0"..., 832) = 832 <0.000006>
+17:56:56 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784 <0.000005>
+17:56:56 fstat(3, {st_mode=S_IFREG|0755, st_size=1989944, ...}) = 0 <0.000005>
+17:56:56 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784 <0.000005>
+17:56:56 mmap(NULL, 2014064, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x720048bad000 <0.000007>
+17:56:56 mmap(0x720048bd1000, 1490944, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x720048bd1000 <0.000012>
+17:56:56 mmap(0x720048d3d000, 319488, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x190000) = 0x720048d3d000 <0.000008>
+17:56:56 mmap(0x720048d8b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1dd000) = 0x720048d8b000 <0.000008>
+17:56:56 mmap(0x720048d91000, 31600, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x720048d91000 <0.000010>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x720048baa000 <0.000007>
+17:56:56 arch_prctl(ARCH_SET_FS, 0x720048baa740) = 0 <0.000005>
+17:56:56 set_tid_address(0x720048baaa10) = 259344 <0.000005>
+17:56:56 set_robust_list(0x720048baaa20, 24) = 0 <0.000005>
+17:56:56 rseq(0x720048bab060, 0x20, 0, 0x53053053) = 0 <0.000005>
+17:56:56 mprotect(0x720048d8b000, 16384, PROT_READ) = 0 <0.000009>
+17:56:56 mprotect(0x720048da3000, 4096, PROT_READ) = 0 <0.000008>
+17:56:56 mprotect(0x60a582db6000, 8192, PROT_READ) = 0 <0.000009>
+17:56:56 mprotect(0x720048e33000, 8192, PROT_READ) = 0 <0.000008>
+17:56:56 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0 <0.000005>
+17:56:56 munmap(0x720048da7000, 340971) = 0 <0.000017>
+17:56:56 prctl(PR_CAPBSET_READ, CAP_MAC_OVERRIDE) = 1 <0.000005>
+17:56:56 prctl(PR_CAPBSET_READ, 0x30 /* CAP_??? */) = -1 EINVAL (Invalid argument) <0.000005>
+17:56:56 prctl(PR_CAPBSET_READ, CAP_CHECKPOINT_RESTORE) = 1 <0.000005>
+17:56:56 prctl(PR_CAPBSET_READ, 0x2c /* CAP_??? */) = -1 EINVAL (Invalid argument) <0.000005>
+17:56:56 prctl(PR_CAPBSET_READ, 0x2a /* CAP_??? */) = -1 EINVAL (Invalid argument) <0.000005>
+17:56:56 prctl(PR_CAPBSET_READ, 0x29 /* CAP_??? */) = -1 EINVAL (Invalid argument) <0.000005>
+17:56:56 getrandom("\xfc\xc8\x8d\xea\x3d\x21\x45\x75", 8, GRND_NONBLOCK) = 8 <0.000006>
+17:56:56 brk(NULL)                      = 0x60a5b81e2000 <0.000006>
+17:56:56 brk(0x60a5b8203000)            = 0x60a5b8203000 <0.000007>
+17:56:56 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3 <0.000009>
+17:56:56 fstat(3, {st_mode=S_IFREG|0644, st_size=6018544, ...}) = 0 <0.000005>
+17:56:56 mmap(NULL, 6018544, PROT_READ, MAP_PRIVATE, 3, 0) = 0x720048400000 <0.000008>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 ioctl(1, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0 <0.000007>
+17:56:56 openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+17:56:56 fstat(3, {st_mode=S_IFREG|0644, st_size=2998, ...}) = 0 <0.000006>
+17:56:56 read(3, "# Locale name alias data base.\n#"..., 4096) = 2998 <0.000006>
+17:56:56 read(3, "", 4096)              = 0 <0.000005>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000007>
+17:56:56 openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 openat(AT_FDCWD, "/usr/share/locale/en_US/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 openat(AT_FDCWD, "/usr/share/locale/en/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 statx(AT_FDCWD, "full", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_INO|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000007>
+17:56:56 listxattr("full", "", 152)     = 0 <0.000007>
+17:56:56 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=359, ...}, 0) = 0 <0.000006>
+17:56:56 newfstatat(AT_FDCWD, "/", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000006>
+17:56:56 openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3 <0.000007>
+17:56:56 fstat(3, {st_mode=S_IFREG|0644, st_size=359, ...}) = 0 <0.000005>
+17:56:56 read(3, "# Name Service Switch configurat"..., 4096) = 359 <0.000006>
+17:56:56 read(3, "", 4096)              = 0 <0.000005>
+17:56:56 fstat(3, {st_mode=S_IFREG|0644, st_size=359, ...}) = 0 <0.000005>
+17:56:56 close(3)                       = 0 <0.000006>
+17:56:56 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 3 <0.000007>
+17:56:56 fstat(3, {st_mode=S_IFREG|0644, st_size=2784, ...}) = 0 <0.000005>
+17:56:56 lseek(3, 0, SEEK_SET)          = 0 <0.000008>
+17:56:56 read(3, "root:x:0:0::/root:/bin/bash\nbin:"..., 4096) = 2784 <0.000006>
+17:56:56 close(3)                       = 0 <0.000006>
+17:56:56 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=359, ...}, 0) = 0 <0.000006>
+17:56:56 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+17:56:56 fstat(3, {st_mode=S_IFREG|0644, st_size=1438, ...}) = 0 <0.000006>
+17:56:56 lseek(3, 0, SEEK_SET)          = 0 <0.000005>
+17:56:56 read(3, "root:x:0:brltty,root\nsys:x:3:bin"..., 4096) = 1438 <0.000006>
+17:56:56 close(3)                       = 0 <0.000006>
+17:56:56 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+17:56:56 fstat(3, {st_mode=S_IFREG|0644, st_size=340971, ...}) = 0 <0.000005>
+17:56:56 mmap(NULL, 340971, PROT_READ, MAP_PRIVATE, 3, 0) = 0x720048da7000 <0.000009>
+17:56:56 close(3)                       = 0 <0.000006>
+17:56:56 openat(AT_FDCWD, "/usr/lib/libnss_systemd.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000010>
+17:56:56 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832 <0.000009>
+17:56:56 fstat(3, {st_mode=S_IFREG|0755, st_size=403896, ...}) = 0 <0.000006>
+17:56:56 mmap(NULL, 404080, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x720048b47000 <0.000010>
+17:56:56 mmap(0x720048b4b000, 290816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x720048b4b000 <0.000016>
+17:56:56 mmap(0x720048b92000, 77824, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4b000) = 0x720048b92000 <0.000013>
+17:56:56 mmap(0x720048ba5000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5e000) = 0x720048ba5000 <0.000009>
+17:56:56 close(3)                       = 0 <0.000006>
+17:56:56 openat(AT_FDCWD, "/usr/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000010>
+17:56:56 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832 <0.000006>
+17:56:56 fstat(3, {st_mode=S_IFREG|0755, st_size=960856, ...}) = 0 <0.000006>
+17:56:56 mmap(NULL, 958792, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x720048a5c000 <0.000009>
+17:56:56 mmap(0x720048a6a000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x720048a6a000 <0.000014>
+17:56:56 mmap(0x720048aea000, 372736, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8e000) = 0x720048aea000 <0.000009>
+17:56:56 mmap(0x720048b45000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe9000) = 0x720048b45000 <0.000010>
+17:56:56 close(3)                       = 0 <0.000006>
+17:56:56 openat(AT_FDCWD, "/usr/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+17:56:56 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832 <0.000006>
+17:56:56 fstat(3, {st_mode=S_IFREG|0644, st_size=911792, ...}) = 0 <0.000007>
+17:56:56 mmap(NULL, 180712, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x720048a2f000 <0.000008>
+17:56:56 mmap(0x720048a33000, 143360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x720048a33000 <0.000012>
+17:56:56 mmap(0x720048a56000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x27000) = 0x720048a56000 <0.000009>
+17:56:56 mmap(0x720048a5a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2a000) = 0x720048a5a000 <0.000008>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 mprotect(0x720048a5a000, 4096, PROT_READ) = 0 <0.000010>
+17:56:56 mprotect(0x720048b45000, 4096, PROT_READ) = 0 <0.000008>
+17:56:56 mprotect(0x720048ba5000, 16384, PROT_READ) = 0 <0.000008>
+17:56:56 munmap(0x720048da7000, 340971) = 0 <0.000021>
+17:56:56 rt_sigprocmask(SIG_BLOCK, [HUP USR1 USR2 PIPE ALRM CHLD TSTP URG VTALRM PROF WINCH IO], [], 8) = 0 <0.000007>
+17:56:56 futex(0x720048ba90e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000007>
+17:56:56 openat(AT_FDCWD, "/run/systemd/userdb/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3 <0.000025>
+17:56:56 fstat(3, {st_mode=S_IFDIR|0755, st_size=60, ...}) = 0 <0.000007>
+17:56:56 getdents64(3, 0x60a5b81ede20 /* 3 entries */, 32768) = 96 <0.000009>
+17:56:56 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4 <0.000030>
+17:56:56 connect(4, {sa_family=AF_UNIX, sun_path="/run/systemd/userdb/io.systemd.DynamicUser"}, 45) = 0 <0.000011>
+17:56:56 getrandom("\x8c\x8f\x82\x50\x05\x36\x86\xc8", 8, GRND_INSECURE) = 8 <0.000006>
+17:56:56 futex(0x720048ba9a40, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000005>
+17:56:56 getpid()                       = 259344 <0.000005>
+17:56:56 epoll_create1(EPOLL_CLOEXEC)   = 5 <0.000007>
+17:56:56 timerfd_create(CLOCK_MONOTONIC, TFD_CLOEXEC|TFD_NONBLOCK) = 6 <0.000006>
+17:56:56 epoll_ctl(5, EPOLL_CTL_ADD, 6, {events=EPOLLIN, data={u32=3089064224, u64=106264874934560}}) = 0 <0.000009>
+17:56:56 epoll_ctl(5, EPOLL_CTL_ADD, 4, {events=0, data={u32=3089066128, u64=106264874936464}}) = 0 <0.000006>
+17:56:56 getrandom("\x76\xb7\x0b\x3e\x8f\x6d\x9f\xae\x54\xf1\xe5\xe8\x1a\xac\x8c\x92", 16, GRND_INSECURE) = 16 <0.000006>
+17:56:56 futex(0x720048ba9a20, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000005>
+17:56:56 getdents64(3, 0x60a5b81ede20 /* 0 entries */, 32768) = 0 <0.000006>
+17:56:56 close(3)                       = 0 <0.000006>
+17:56:56 epoll_ctl(5, EPOLL_CTL_MOD, 4, {events=EPOLLIN|EPOLLOUT, data={u32=3089066128, u64=106264874936464}}) = 0 <0.000006>
+17:56:56 openat(AT_FDCWD, "/proc/sys/kernel/random/boot_id", O_RDONLY|O_NOCTTY|O_CLOEXEC) = 3 <0.000011>
+17:56:56 read(3, "f27a2e67-989c-41c4-96d1-4c0c3ca0"..., 38) = 37 <0.000007>
+17:56:56 read(3, "", 1)                 = 0 <0.000006>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 timerfd_settime(6, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=15696, tv_nsec=704916000}}, NULL) = 0 <0.000006>
+17:56:56 epoll_pwait2(5, [{events=EPOLLOUT, data={u32=3089066128, u64=106264874936464}}], 8, {tv_sec=0, tv_nsec=0}, NULL, 8) = 1 <0.000005>
+17:56:56 sendto(4, "{\"method\":\"io.systemd.UserDataba"..., 113, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 113 <0.000008>
+17:56:56 epoll_ctl(5, EPOLL_CTL_MOD, 4, {events=EPOLLIN, data={u32=3089066128, u64=106264874936464}}) = 0 <0.000005>
+17:56:56 epoll_pwait2(5, [], 8, {tv_sec=0, tv_nsec=0}, NULL, 8) = 0 <0.000005>
+17:56:56 mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x720048dda000 <0.000009>
+17:56:56 recvfrom(4, "{\"error\":\"io.systemd.UserDatabas"..., 135152, MSG_DONTWAIT, NULL, NULL) = 66 <0.000007>
+17:56:56 epoll_ctl(5, EPOLL_CTL_MOD, 4, {events=0, data={u32=3089066128, u64=106264874936464}}) = 0 <0.000005>
+17:56:56 epoll_pwait2(5, [], 8, {tv_sec=0, tv_nsec=0}, NULL, 8) = 0 <0.000005>
+17:56:56 epoll_pwait2(5, [], 8, {tv_sec=0, tv_nsec=0}, NULL, 8) = 0 <0.000005>
+17:56:56 epoll_ctl(5, EPOLL_CTL_DEL, 4, NULL) = 0 <0.000006>
+17:56:56 close(4)                       = 0 <0.000009>
+17:56:56 munmap(0x720048dda000, 135168) = 0 <0.000010>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3 <0.000007>
+17:56:56 openat(3, "..", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 4 <0.000007>
+17:56:56 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 statx(4, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 close(4)                       = 0 <0.000005>
+17:56:56 openat(3, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 4 <0.000006>
+17:56:56 fstat(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 7 <0.000006>
+17:56:56 openat(4, "etc", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8 <0.000006>
+17:56:56 fstat(8, {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0 <0.000005>
+17:56:56 close(4)                       = 0 <0.000005>
+17:56:56 openat(8, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 close(8)                       = 0 <0.000005>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3 <0.000006>
+17:56:56 openat(3, "..", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 4 <0.000006>
+17:56:56 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 statx(4, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000005>
+17:56:56 close(4)                       = 0 <0.000005>
+17:56:56 openat(3, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 4 <0.000006>
+17:56:56 fstat(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 7 <0.000006>
+17:56:56 openat(4, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8 <0.000006>
+17:56:56 fstat(8, {st_mode=S_IFDIR|0755, st_size=960, ...}) = 0 <0.000005>
+17:56:56 close(4)                       = 0 <0.000005>
+17:56:56 openat(8, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory) <0.000007>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 close(8)                       = 0 <0.000005>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3 <0.000006>
+17:56:56 openat(3, "..", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 4 <0.000006>
+17:56:56 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 statx(4, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000005>
+17:56:56 close(4)                       = 0 <0.000005>
+17:56:56 openat(3, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 4 <0.000006>
+17:56:56 fstat(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 7 <0.000006>
+17:56:56 openat(4, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8 <0.000006>
+17:56:56 fstat(8, {st_mode=S_IFDIR|0755, st_size=960, ...}) = 0 <0.000005>
+17:56:56 close(4)                       = 0 <0.000005>
+17:56:56 openat(8, "host", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 close(8)                       = 0 <0.000005>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3 <0.000006>
+17:56:56 openat(3, "..", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 4 <0.000006>
+17:56:56 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 statx(4, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000005>
+17:56:56 close(4)                       = 0 <0.000005>
+17:56:56 openat(3, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 4 <0.000006>
+17:56:56 fstat(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 7 <0.000006>
+17:56:56 openat(4, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8 <0.000006>
+17:56:56 fstat(8, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 close(4)                       = 0 <0.000005>
+17:56:56 openat(8, "local", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 4 <0.000006>
+17:56:56 fstat(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 close(8)                       = 0 <0.000005>
+17:56:56 openat(4, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8 <0.000006>
+17:56:56 fstat(8, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 close(4)                       = 0 <0.000005>
+17:56:56 openat(8, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 close(8)                       = 0 <0.000005>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3 <0.000006>
+17:56:56 openat(3, "..", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 4 <0.000006>
+17:56:56 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 statx(4, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 close(4)                       = 0 <0.000005>
+17:56:56 openat(3, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 4 <0.000012>
+17:56:56 fstat(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000007>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 7 <0.000006>
+17:56:56 openat(4, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8 <0.000006>
+17:56:56 fstat(8, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000008>
+17:56:56 close(4)                       = 0 <0.000011>
+17:56:56 openat(8, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 4 <0.000007>
+17:56:56 fstat(4, {st_mode=S_IFDIR|0755, st_size=458752, ...}) = 0 <0.000005>
+17:56:56 close(8)                       = 0 <0.000005>
+17:56:56 openat(4, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 close(4)                       = 0 <0.000005>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/etc/userdb/1000.group", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 openat(AT_FDCWD, "/run/userdb/1000.group", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000007>
+17:56:56 openat(AT_FDCWD, "/run/host/userdb/1000.group", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 openat(AT_FDCWD, "/usr/local/lib/userdb/1000.group", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 openat(AT_FDCWD, "/usr/lib/userdb/1000.group", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 close(5)                       = 0 <0.000007>
+17:56:56 close(6)                       = 0 <0.000010>
+17:56:56 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=359, ...}, 0) = 0 <0.000007>
+17:56:56 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+17:56:56 fstat(3, {st_mode=S_IFREG|0644, st_size=1438, ...}) = 0 <0.000005>
+17:56:56 lseek(3, 0, SEEK_SET)          = 0 <0.000006>
+17:56:56 read(3, "root:x:0:brltty,root\nsys:x:3:bin"..., 4096) = 1438 <0.000006>
+17:56:56 close(3)                       = 0 <0.000006>
+17:56:56 rt_sigprocmask(SIG_BLOCK, [HUP USR1 USR2 PIPE ALRM CHLD TSTP URG VTALRM PROF WINCH IO], [HUP USR1 USR2 PIPE ALRM CHLD TSTP URG VTALRM PROF WINCH IO], 8) = 0 <0.000005>
+17:56:56 rt_sigprocmask(SIG_SETMASK, [HUP USR1 USR2 PIPE ALRM CHLD TSTP URG VTALRM PROF WINCH IO], NULL, 8) = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/run/systemd/userdb/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3 <0.000008>
+17:56:56 fstat(3, {st_mode=S_IFDIR|0755, st_size=60, ...}) = 0 <0.000005>
+17:56:56 getdents64(3, 0x60a5b81f7170 /* 3 entries */, 32768) = 96 <0.000006>
+17:56:56 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4 <0.000009>
+17:56:56 connect(4, {sa_family=AF_UNIX, sun_path="/run/systemd/userdb/io.systemd.DynamicUser"}, 45) = 0 <0.000009>
+17:56:56 epoll_create1(EPOLL_CLOEXEC)   = 5 <0.000006>
+17:56:56 timerfd_create(CLOCK_MONOTONIC, TFD_CLOEXEC|TFD_NONBLOCK) = 6 <0.000006>
+17:56:56 epoll_ctl(5, EPOLL_CTL_ADD, 6, {events=EPOLLIN, data={u32=3089064224, u64=106264874934560}}) = 0 <0.000006>
+17:56:56 epoll_ctl(5, EPOLL_CTL_ADD, 4, {events=0, data={u32=3089032064, u64=106264874902400}}) = 0 <0.000006>
+17:56:56 getdents64(3, 0x60a5b81f7170 /* 0 entries */, 32768) = 0 <0.000006>
+17:56:56 close(3)                       = 0 <0.000006>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3 <0.000006>
+17:56:56 openat(3, "..", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 7 <0.000006>
+17:56:56 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 statx(7, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 openat(3, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 7 <0.000006>
+17:56:56 fstat(7, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 8 <0.000006>
+17:56:56 openat(7, "etc", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9 <0.000006>
+17:56:56 fstat(9, {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0 <0.000005>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 openat(9, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 close(8)                       = 0 <0.000005>
+17:56:56 close(9)                       = 0 <0.000005>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3 <0.000006>
+17:56:56 openat(3, "..", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 7 <0.000006>
+17:56:56 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000005>
+17:56:56 statx(7, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 openat(3, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 7 <0.000006>
+17:56:56 fstat(7, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 8 <0.000006>
+17:56:56 openat(7, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9 <0.000006>
+17:56:56 fstat(9, {st_mode=S_IFDIR|0755, st_size=960, ...}) = 0 <0.000009>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 openat(9, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory) <0.000007>
+17:56:56 close(8)                       = 0 <0.000005>
+17:56:56 close(9)                       = 0 <0.000005>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3 <0.000006>
+17:56:56 openat(3, "..", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 7 <0.000006>
+17:56:56 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 statx(7, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 openat(3, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 7 <0.000006>
+17:56:56 fstat(7, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 8 <0.000006>
+17:56:56 openat(7, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9 <0.000006>
+17:56:56 fstat(9, {st_mode=S_IFDIR|0755, st_size=960, ...}) = 0 <0.000005>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 openat(9, "host", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 close(8)                       = 0 <0.000005>
+17:56:56 close(9)                       = 0 <0.000005>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3 <0.000006>
+17:56:56 openat(3, "..", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 7 <0.000006>
+17:56:56 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000005>
+17:56:56 statx(7, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 openat(3, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 7 <0.000006>
+17:56:56 fstat(7, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 8 <0.000005>
+17:56:56 openat(7, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9 <0.000006>
+17:56:56 fstat(9, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 openat(9, "local", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7 <0.000006>
+17:56:56 fstat(7, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 close(9)                       = 0 <0.000005>
+17:56:56 openat(7, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9 <0.000006>
+17:56:56 fstat(9, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 openat(9, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 close(8)                       = 0 <0.000005>
+17:56:56 close(9)                       = 0 <0.000005>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 3 <0.000006>
+17:56:56 openat(3, "..", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 7 <0.000006>
+17:56:56 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000005>
+17:56:56 statx(7, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_TYPE|STATX_INO|STATX_MNT_ID, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=STATX_ATTR_MOUNT_ROOT, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000005>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 openat(3, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 7 <0.000006>
+17:56:56 fstat(7, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY) = 8 <0.000006>
+17:56:56 openat(7, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9 <0.000006>
+17:56:56 fstat(9, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 openat(9, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7 <0.000006>
+17:56:56 fstat(7, {st_mode=S_IFDIR|0755, st_size=458752, ...}) = 0 <0.000005>
+17:56:56 close(9)                       = 0 <0.000005>
+17:56:56 openat(7, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 close(8)                       = 0 <0.000005>
+17:56:56 close(7)                       = 0 <0.000005>
+17:56:56 close(3)                       = 0 <0.000005>
+17:56:56 epoll_ctl(5, EPOLL_CTL_MOD, 4, {events=EPOLLIN|EPOLLOUT, data={u32=3089032064, u64=106264874902400}}) = 0 <0.000005>
+17:56:56 timerfd_settime(6, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=15696, tv_nsec=704916000}}, NULL) = 0 <0.000006>
+17:56:56 epoll_pwait2(5, [{events=EPOLLOUT, data={u32=3089032064, u64=106264874902400}}], 8, {tv_sec=0, tv_nsec=0}, NULL, 8) = 1 <0.000005>
+17:56:56 sendto(4, "{\"method\":\"io.systemd.UserDataba"..., 133, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 133 <0.000007>
+17:56:56 epoll_ctl(5, EPOLL_CTL_MOD, 4, {events=EPOLLIN, data={u32=3089032064, u64=106264874902400}}) = 0 <0.000005>
+17:56:56 epoll_pwait2(5, [], 8, {tv_sec=0, tv_nsec=0}, NULL, 8) = 0 <0.000005>
+17:56:56 brk(0x60a5b8238000)            = 0x60a5b8238000 <0.000011>
+17:56:56 recvfrom(4, "{\"error\":\"io.systemd.UserDatabas"..., 131080, MSG_DONTWAIT, NULL, NULL) = 66 <0.000006>
+17:56:56 epoll_ctl(5, EPOLL_CTL_MOD, 4, {events=0, data={u32=3089032064, u64=106264874902400}}) = 0 <0.000005>
+17:56:56 epoll_pwait2(5, [], 8, {tv_sec=0, tv_nsec=0}, NULL, 8) = 0 <0.000005>
+17:56:56 epoll_pwait2(5, [], 8, {tv_sec=0, tv_nsec=0}, NULL, 8) = 0 <0.000005>
+17:56:56 epoll_ctl(5, EPOLL_CTL_DEL, 4, NULL) = 0 <0.000006>
+17:56:56 close(4)                       = 0 <0.000007>
+17:56:56 close(5)                       = 0 <0.000006>
+17:56:56 close(6)                       = 0 <0.000005>
+17:56:56 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000005>
+17:56:56 openat(AT_FDCWD, "full", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3 <0.000007>
+17:56:56 fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+17:56:56 getdents64(3, 0x60a5b81f7170 /* 10 entries */, 32768) = 312 <0.000012>
+17:56:56 statx(AT_FDCWD, "full/nopermsdir", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_INO|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0711, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 listxattr("full/nopermsdir", "", 152) = 0 <0.000006>
+17:56:56 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=359, ...}, 0) = 0 <0.000006>
+17:56:56 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4 <0.000007>
+17:56:56 fstat(4, {st_mode=S_IFREG|0644, st_size=2784, ...}) = 0 <0.000005>
+17:56:56 lseek(4, 0, SEEK_SET)          = 0 <0.000005>
+17:56:56 read(4, "root:x:0:0::/root:/bin/bash\nbin:"..., 4096) = 2784 <0.000006>
+17:56:56 close(4)                       = 0 <0.000005>
+17:56:56 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=359, ...}, 0) = 0 <0.000006>
+17:56:56 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4 <0.000006>
+17:56:56 fstat(4, {st_mode=S_IFREG|0644, st_size=1438, ...}) = 0 <0.000005>
+17:56:56 lseek(4, 0, SEEK_SET)          = 0 <0.000005>
+17:56:56 read(4, "root:x:0:brltty,root\nsys:x:3:bin"..., 4096) = 1438 <0.000005>
+17:56:56 close(4)                       = 0 <0.000011>
+17:56:56 rt_sigprocmask(SIG_BLOCK, [HUP USR1 USR2 PIPE ALRM CHLD TSTP URG VTALRM PROF WINCH IO], [], 8) = 0 <0.000059>
+17:56:56 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000050>
+17:56:56 statx(AT_FDCWD, "full/linkedfile", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_INO|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=2, ...}) = 0 <0.000048>
+17:56:56 readlink("full/linkedfile", "ls", 3) = 2 <0.000007>
+17:56:56 statx(AT_FDCWD, "full/binaryfile", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_INO|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=129728, ...}) = 0 <0.000006>
+17:56:56 listxattr("full/binaryfile", "", 152) = 0 <0.000006>
+17:56:56 statx(AT_FDCWD, "full/..", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_INO|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 listxattr("full/..", "", 152)  = 0 <0.000006>
+17:56:56 statx(AT_FDCWD, "full/fulldir", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_INO|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 listxattr("full/fulldir", "", 152) = 0 <0.000005>
+17:56:56 statx(AT_FDCWD, "full/nopermsfile", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_INO|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0600, stx_size=11, ...}) = 0 <0.000006>
+17:56:56 listxattr("full/nopermsfile", "", 152) = 0 <0.000005>
+17:56:56 statx(AT_FDCWD, "full/emptydir", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_INO|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 listxattr("full/emptydir", "", 152) = 0 <0.000006>
+17:56:56 statx(AT_FDCWD, "full/.", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_INO|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0 <0.000006>
+17:56:56 listxattr("full/.", "", 152)   = 0 <0.000006>
+17:56:56 statx(AT_FDCWD, "full/.hiddenfile", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_INO|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=0, ...}) = 0 <0.000006>
+17:56:56 listxattr("full/.hiddenfile", "", 152) = 0 <0.000006>
+17:56:56 statx(AT_FDCWD, "full/emptyfile.txt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_INO|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=0, ...}) = 0 <0.000006>
+17:56:56 listxattr("full/emptyfile.txt", "", 152) = 0 <0.000005>
+17:56:56 getdents64(3, 0x60a5b81f7170 /* 0 entries */, 32768) = 0 <0.000006>
+17:56:56 close(3)                       = 0 <0.000007>
+17:56:56 openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000009>
+17:56:56 openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000007>
+17:56:56 openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000008>
+17:56:56 openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000006>
+17:56:56 fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x1), ...}) = 0 <0.000005>
+17:56:56 write(1, "total 152K\n", 11)   = 11 <0.000009>
+17:56:56 openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3 <0.000009>
+17:56:56 fstat(3, {st_mode=S_IFREG|0644, st_size=2301, ...}) = 0 <0.000006>
+17:56:56 fstat(3, {st_mode=S_IFREG|0644, st_size=2301, ...}) = 0 <0.000005>
+17:56:56 read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\10\0\0\0\0"..., 4096) = 2301 <0.000008>
+17:56:56 lseek(3, -1461, SEEK_CUR)      = 840 <0.000005>
+17:56:56 read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\t\0\0\0\t\0\0\0\0"..., 4096) = 1461 <0.000005>
+17:56:56 close(3)                       = 0 <0.000006>
+17:56:56 write(1, "15344894 -rw------- 1 root root "..., 62) = 62 <0.000007>
+17:56:56 write(1, "15557132 drwx--x--x 2 root root "..., 61) = 61 <0.000006>
+17:56:56 write(1, "15344893 lrwxrwxrwx 1 user user "..., 67) = 67 <0.000007>
+17:56:56 write(1, "15344895 -rw-r--r-- 1 user user "..., 62) = 62 <0.000006>
+17:56:56 write(1, "15557133 drwxr-xr-x 2 user user "..., 58) = 58 <0.000006>
+17:56:56 write(1, "15344891 -rw-r--r-- 1 user user "..., 64) = 64 <0.000006>
+17:56:56 write(1, "15540323 drwxr-xr-x 2 user user "..., 59) = 59 <0.000006>
+17:56:56 write(1, "15344892 -rwxr-xr-x 1 user user "..., 61) = 61 <0.000006>
+17:56:56 write(1, "14934246 drwxr-xr-x 6 user user "..., 53) = 53 <0.000007>
+17:56:56 write(1, "15442462 drwxr-xr-x 5 user user "..., 52) = 52 <0.000006>
+17:56:56 close(1)                       = 0 <0.000005>
+17:56:56 close(2)                       = 0 <0.000005>
+17:56:56 exit_group(0)                  = ?
+17:56:56 +++ exited with 0 +++

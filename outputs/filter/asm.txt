@@ -1,0 +1,13 @@
+All used syscalls with possible arguments:
+{'exit': [{'0'}, set(), set(), set(), set(), set()],
+ 'write': [{'1'}, {'"Hello World!\\n"'}, {'13'}, set(), set(), set()]}
+
+
+Command to run firejail (insert name of binary at the end):
+firejail --noprofile --seccomp.keep=write,exit
+
+Found 2 syscalls.
+Finished running filter script with 1 traces
+
+none missing in callander
+none missing in binalyzer

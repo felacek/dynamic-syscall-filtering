@@ -137,8 +137,10 @@ def main(traces):
     analysis = analyse(calls)
     print("All used syscalls with possible arguments:")
     pprint.pprint(possibleArgs(analysis))
-    create_docker_profile(analysis)
-    create_seccomp_profile(analysis)
+    # These functions produce two seccomp profiles used in Docker and in https://gitlab.com/patlefort/seccomp-filtered-run,
+    # but I could not get either of those two to work correctly.
+    #create_docker_profile(analysis)
+    #create_seccomp_profile(analysis)
 
     string = "firejail --noprofile --seccomp.keep="
     for x in analysis.keys():
@@ -147,7 +149,7 @@ def main(traces):
     print("\n\nCommand to run firejail (insert name of binary at the end):")
     print(string[:-1])
     print("\nFound " + str(len(analysis.keys())) + " syscalls.")
-    print("Finished running filter script with " + str(len(traces)) + " traces")
+    print("Finished running filter script with " + str(len(traces)) + " trace" + ("" if len(traces) == 1 else "s"))
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
